@@ -1,8 +1,6 @@
 # Personal Portfolio  
 
 Welcome to my personal portfolio! This project showcases my skills, projects, and experience in web development.  
- 
-
 ## 📌 About Me  
 I am a passionate Web development, specializing in HTML,css,JavaScript. My portfolio highlights my skills, projects.  
 
