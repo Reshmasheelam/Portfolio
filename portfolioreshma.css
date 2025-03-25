@@ -1,0 +1,254 @@
+*{
+    background-color: black;
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    gap:100px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav-bar{
+    display:flex;
+    flex-direction: row;
+    height:10vh;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:2px solid white;
+    position: sticky;
+    top:0;
+    
+}
+.name{
+    font-size: 20px;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+span{
+    color:rgb(255, 6, 126);
+    font-size:larger;
+    font-style: italic;
+}
+.name-links a{
+    text-decoration: none;
+    color:rgb(255, 6, 126);
+    padding-right:10px;
+}
+.name-links{
+    width:35%;
+   display: flex;
+   justify-content: space-between;
+}
+.name-links a:hover{
+    color:rgb(249, 249, 249);
+    transition: 0.5s;
+    text-decoration:underline;
+}
+.total_content{
+    margin:0 50px;
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+}
+.main{
+    display: flex;
+}
+.socila-media-links{
+    display: flex;
+    align-items: center;
+    gap:20px;    
+}
+.socila-media-links{
+    color:#ff004f;
+    transform: translateY(-5px);
+}
+.socila-media-links a img{
+    height:20px;
+    width:20px;
+    border-radius: 3px;
+    background-color: white;  
+}
+.content{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+}
+.main-name{
+    font-size: 2.5rem;
+    color:white;
+}
+.main-role{
+display: flex;
+align-items: center;
+gap:30px;
+color:rgb(188, 182, 182);
+font-size:1.5rem;
+}
+.line{
+border:1px solid rgb(188, 182, 182) ;
+margin:20px 0;
+width:80px;
+}
+.main-description{
+    color:rgb(135, 122, 122);
+    font-size:1.05rem;
+    width:60%;
+    line-height: 25px;
+}
+.button1{
+    border:none;
+    height:40px;
+    background-color:rgb(255, 6, 126);
+    border-radius: 2px;
+    padding:5px;
+    margin-right:20px;
+}
+.button1 a{
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+    
+}
+ .profile img{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius:50%;
+ }
+ .about{
+    display: flex;
+    flex-direction: column;
+    color:#f6f6f6;
+    gap:20px;
+    width:100%;
+ }
+ .sub-title{
+    color:rgb(255, 6, 126);
+    font-size:40px;
+ }
+ .intro{
+    font-size:1.05rem;
+    line-height: 30px;
+    color:rgb(188, 182, 182);
+ }
+ .skills{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    font-size:1.05rem;
+    color:rgb(188, 182, 182);
+ }
+
+ ul{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    list-style-type: none;
+ }
+ .skills li{
+    background-color: #262626;
+    padding: 10px;
+    color:#b6b6b6;
+    text-align:center;
+    border-radius: 2px;
+ }
+ .skill-type{
+    color:white;
+    font-size: larger;
+ }
+  .projects-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    grid-gap:40px;
+    color:white;
+    margin-top:30px; 
+  }
+  .projects-list div{
+    background-color: #262626;
+    padding:10px;
+    border-radius: 5px;
+    width:100%;
+    transition:background 0.5s,transform 0.5s;
+  }
+  .projects-list p,.projects-list h3,.projects-list a{
+    background-color: transparent;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  .projects-list h3{
+    font-weight: 400;
+  }
+  .projects-list p{
+    margin-top: 20px;
+    color:rgb(182, 182, 182);
+    margin-bottom: 20px;
+  }
+  .projects-list a{
+    font-size: 12px;
+    text-decoration: none;
+    color:rgb(182, 182, 182);
+    align-items:bottom;
+    
+  }
+  .projects-list div:hover{
+    background-color: #ff004f;
+    transform: translateY(-10px);
+  }
+.contact{
+    color:white;
+    display: flex;
+
+    gap:100px;
+    margin-bottom: 100px;
+}
+ .contact-left,.contact-right{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    width:30%;
+    color:white;
+    
+ }
+ .contact-right{
+    margin-top:20px;
+    width:40%;
+ }
+ form{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+ }
+ .contact-right input{
+    border:none;
+    padding:12px;
+    border-radius: 3px;
+    color:white;
+    background-color: #262626;
+ }
+ .contact-right textarea{
+    color:#b6b6b6;
+    border:none;
+    padding:12px;
+    border-radius: 3px;
+    background-color: #262626;
+ }
+ .contact-right button{
+    background-color: #ff004f;
+    border-radius:3px;
+    border:none;
+    padding:10px;
+    color:#b6b6b6; 
+    cursor: pointer;
+    text-align: center;
+ }
+ .email-link span{
+    font-size: 14px;
+    color:rgb(182, 182, 182);
+ }
